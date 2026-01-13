@@ -10,7 +10,7 @@ Laser Sound Visualization System
 
 ## Bill of Materials (BOM)
 
-### Controller Unit — Gesture Interface
+### Controller Unit - Gesture Interface
 ▪ Microcontroller: 1 ESP32  
 ▪ IMU Sensor: MPU6050   
 ▪ Trigger Input: Button or Switch 
@@ -18,7 +18,7 @@ Laser Sound Visualization System
 ▪ Enclosure: 3D-printed handheld chassis
 ▪ Power / Data Interface: USB or battery  
 
-### Base Station — Optical Projection Core
+### Base Station - Optical Projection Core
 ▪ Microcontroller: 1 ESP32  
 ▪ Laser Source: 532 nm green diode  
 ▪ Mirror Actuators: 2 × mini speakers (≈3 W, 8 Ω)  
@@ -30,7 +30,7 @@ Laser Sound Visualization System
 
 ---
 
-## Q1 — System Boundary
+## Q1 - System Boundary
 
 ▪ Input domain: Human motion and discrete trigger events  
 ▪ Output domain: Audible sound and projected laser geometry (Lissajous figures)
@@ -40,7 +40,7 @@ are contained within the system boundary.
 
 ---
 
-## Q2 — Location of Intelligence
+## Q2 - Location of Intelligence
 
 ▪ Gesture interpretation  
 ▪ Pitch quantization  
@@ -51,7 +51,7 @@ The projection system executes physical dynamics only (Hand movement & Mirror vi
 
 ---
 
-## Q3 — Primary Technical Challenge
+## Q3 - Primary Technical Challenge
 
 ▪ Synchronization between the frequency generator (the hand system) and the vibration of mirror (to sync the sound with the figures shown).  
 ▪ The vibration of mirror due to the low force ( ≈ 0.1 N ) produced by the audio speaker. Thereby we have to extend the distance necessary for the projection of our figures ( ≈ 10 cm in diameter / 6 m).  
@@ -59,7 +59,7 @@ The projection system executes physical dynamics only (Hand movement & Mirror vi
 
 ---
 
-## Q4 — Minimum Viable Demonstration
+## Q4 - Minimum Viable Demonstration
 
 ▪ Controller tilt produces quantized pitch  
 ▪ Trigger initiates tone generation  
@@ -69,7 +69,7 @@ This establishes the full motion → sound → light pipeline.
 
 ---
 
-## Q5 — Why This Is Not a Tutorial
+## Q5 - Why This Is Not a Tutorial
 
 ▪ No predefined visual output  
 ▪ No deterministic rendering  
@@ -80,7 +80,7 @@ gesture, resonance, and analog dynamics.
 
 ---
 
-## Microcontroller Selection — ESP32 Requirement
+## Microcontroller Selection - ESP32 Requirement
 
 ▪ 2 x ESP32: required for final system  
 
