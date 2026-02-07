@@ -95,6 +95,20 @@ ESP32 provides the necessary control margin.
 
 ![Lissajous Figures](images/lissajous_figures.jpg)
 
+---
+
+## Device Overview
+
+The project relies on three custom hardware components working in tandem to generate sound from gestures and translate audio vibrations into visual laser patterns.
+
+| **1. The Sound Source (Gesture Glove)** | **2. The Modulator Mechanism** | **3. The Laser Source** |
+| :--- | :--- | :--- |
+| <img src="images/device_glove.jpeg" width="100%"> | <img src="images/device_mechanism.jpeg" width="100%"> | <img src="images/device_laser.jpeg" width="100%"> |
+| A wearable "virtual violin" glove. It detects hand movements to generate musical notes and vibrations, acting as the audio input for the system. | The core component featuring a stretched membrane with a tiny mirror mounted on a flexible hinge. Audio vibrations cause the mirror to oscillate rapidly on multiple axes. | A focused green laser beam directed onto the modulator's mirror. The reflection creates the dynamic light patterns produced by the sound. |
+
+---
+
+
 # Lissajous Gallery 
 
 <div align="center">
